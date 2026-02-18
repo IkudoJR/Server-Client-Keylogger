@@ -14,14 +14,6 @@ The system consists of two primary modules:
 2. **The Server (Attacker):** A listener that waits for the client to establish a connection and push the collected logs.
 3. **The Keylogger:** A stealthy background process that hooks keyboard input and buffers data to a local log file.
 
-after creating the software it felt too simple and basic.
-At the same time i learned how to make a server-client.
-So, I thought of applying that to the software.
-
-The idea is that the keylogger works hidden in the background
-and the server wait for the client to connect and send the log file.
-In this situation the attacker is the server and the victim is the client.
-
 ## Demonstration Workflow
 The following steps are shown in the demonstration video:
 1.  **Baseline Check:** Verification that the local log file is empty and the process is not yet active.
