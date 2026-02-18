@@ -1,0 +1,9 @@
+If you are using Visual Studio Code:
+
+-Hover on Project in the toolbar
+-Press on "keylogger properties"
+-Expand the C/C++ menu
+-Preprocessors 
+-Change processor definitions to the following:
+
+_CRT_SECURE_NO_WARNINGS;_DEBUG;WIN32_CONSOLE;%(PreprocessorDefinitions)
