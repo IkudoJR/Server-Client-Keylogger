@@ -28,4 +28,4 @@ The following steps are shown in the demonstration video:
 2.  **Execution:** Launching the keylogger; it operates silently with no GUI, visible only in the System Task Manager.
 3.  **Data Capture:** Actively writing "Text" and [ctrl] s to trigger a logging event.
 4.  **Verification:** Confirming the log file has been updated with the captured keystrokes.
-5.  **Exfiltration:** Launching the Server-Client interface. The client automatically connects to the server and transmits the log content successfully.
+5.  **Exfiltration:** Launching the Server-Client interface. The client automatically connects to the server and transmits the log content.
