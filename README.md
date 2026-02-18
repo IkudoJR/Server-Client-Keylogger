@@ -22,9 +22,10 @@ The idea is that the keylogger works hidden in the background
 and the server wait for the client to connect and send the log file.
 In this situation the attacker is the server and the victim is the client.
 
-Video explanations:
-1. At the start of the video, I show that the log file is empty, and that the keylogger is not running.
-2. Then I ran the keylogger that can only be seen in the task manager.
-3. Then I opened the text file and wrote “Text ” and [ctrl] s to save.
-4. Showed that the log file is updated then opened the server-client.
-5. The client connected to the server and sent the log-file content.
+## Demonstration Workflow
+The following steps are shown in the demonstration video:
+1.  **Baseline Check:** Verification that the local log file is empty and the process is not yet active.
+2.  **Execution:** Launching the keylogger; it operates silently with no GUI, visible only in the System Task Manager.
+3.  **Data Capture:** Actively writing "Text" and [ctrl] s to trigger a logging event.
+4.  **Verification:** Confirming the log file has been updated with the captured keystrokes.
+5.  **Exfiltration:** Launching the Server-Client interface. The client automatically connects to the server and transmits the log content successfully.
